@@ -1,19 +1,18 @@
-# React-Slideshow-App
+# React: Slideshow App
 
 ## Environment 
 
-- React Version: 
-- Node Version: 
+- React Version: 16.13.1
+- Node Version: ^12.18.3
 - Default Port: 8000
+
+## Project Specifications 
 
 Create a basic slideshow application, as shown below. Application requirements are given below, and the finished application must pass all of the unit tests.
 
-   <p align="center">
-  <img src="https://github.com/vadym-usatiuk/React-Slideshow-App/assets/51781534/914fe819-360f-429e-a089-a63b77574af3" alt="Your Image Description">
-</p>
+![Gif](https://hrcdn.net/s3_pub/istreet-assets/j3Q6jXZ3DOOPRlCs9hFcnQ/slideshow.gif)
 
-   
-  Your task is to complete the implementation of `src/components/Slides.js` according to the following requirements:
+Your task is to complete the implementation of `src/components/Slides.js` according to the following requirements:
 
 - The Slides component takes an array of slides as a prop. Each element of this array denotes a single slide and is an object with 2 properties: string title and string text.
 - On application launch, the first slide must be rendered.
@@ -33,6 +32,9 @@ Initially, the file is filled with boilerplate code. Note the following:
 
 Please note that the component has the above data-testid attributes for test cases and certain classes and ids for rendering purposes. It is advised not to change them.
 
+**Read-Only Files**
+- `src/App.test.js`
+
 **Commands**
 - run: 
 ```bash
@@ -45,3 +47,4 @@ bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm install
 - test: 
 ```bash
 bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm test
+```
